@@ -12,7 +12,7 @@ def main():
     #number of random batches we'll try: 1000
     #gradient descent: 0.5
     #split of data into model building/model testing: 67%/33%
-    model_simple_neural_network=Model.Model(1000,1000,0.5,0.67,training_data,prediction_data)
+    model_simple_neural_network=Model.Model(100,1000,0.5,0.67,training_data,prediction_data)
 
     #return anticipated model accuracy (hopefully better than 0.5)
     print('Anticipated accuracy is %s' % model_simple_neural_network.result)
